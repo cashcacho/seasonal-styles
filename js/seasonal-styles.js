@@ -16,21 +16,21 @@ $("document").ready(function(){
 
         case "summer":
             $("html").css("background-color", "#EBA52B");
-            $("#slogan").text("Summer fits!");
+            $("#slogan").text("It's getting hot in here!");
             $("#wear").attr("src", "images/summer-wear.jpg");
             $("#logo").attr("src", "images/summer.gif");
         break;
 
         case "winter":
             $("html").css("background-color", "#005393");
-            $("#slogan").text("Walk into Winter wear!");
+            $("#slogan").text("BRRRR It's so cold!!");
             $("#wear").attr("src", "images/winter-wear.jpg");
             $("#logo").attr("src", "images/winter.gif");
         break;
     
         case "fall":
             $("html").css("background-color", "#A81124");
-            $("#slogan").text("Fall into the best fit!");
+            $("#slogan").text("The leaves are falling!!!!");
             $("#wear").attr("src", "images/fall-wear.jpg");
             $("#logo").attr("src", "images/fall.gif");
         break;
